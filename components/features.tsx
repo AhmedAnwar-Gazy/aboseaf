@@ -1,86 +1,16 @@
-// import { Check } from "lucide-react"
-// import { Button } from "@/components/ui/button"
 
-// export function Features() {
-//   const features = [
-//     "خدمة عملاء متميزة",
-//     "عمالة مدربة ومؤهلة",
-//     "أسعار تنافسية",
-//     "توفير سريع للعمالة",
-//     "ضمان الجودة",
-//     "دعم فني متواصل",
-//   ]
-
-//   return (
-//     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
-//       <div className="container mx-auto px-4">
-//         <div className="grid md:grid-cols-2 gap-12 items-center">
-//           <div className="relative group">
-//             <div className="absolute -inset-4 bg-gradient-to-r from-[oklch(0.6_0.2_200)]/20 to-[oklch(0.5_0.2_220)]/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />
-//             <img
-//               src="/business-professionals-meeting.png"
-//               alt="Features"
-//               className="rounded-2xl shadow-2xl w-full relative z-10 group-hover:scale-[1.02] transition-transform duration-300"
-//             />
-//           </div>
-
-//           <div>
-//             <div className="inline-block bg-[oklch(0.6_0.2_200)]/10 text-[oklch(0.6_0.2_200)] font-semibold px-4 py-2 rounded-full mb-4">
-//               لماذا تختارنا
-//             </div>
-//             <h2 className="text-4xl font-bold mb-6 text-balance leading-tight">
-//               خبرة +10 سنوات في توفير عمالة مدربة ومرخصة
-//             </h2>
-
-//             <div className="grid grid-cols-2 gap-4 mb-8">
-//               {features.map((feature, index) => (
-//                 <div key={index} className="flex items-start gap-2 group/item">
-//                   <div className="bg-[oklch(0.6_0.2_200)]/10 p-1 rounded-full group-hover/item:bg-[oklch(0.6_0.2_200)]/20 transition-colors">
-//                     <Check className="h-5 w-5 text-[oklch(0.6_0.2_200)] flex-shrink-0" />
-//                   </div>
-//                   <span className="group-hover/item:text-[oklch(0.6_0.2_200)] transition-colors">{feature}</span>
-//                 </div>
-//               ))}
-//             </div>
-
-//             <p className="text-muted-foreground mb-8 leading-relaxed text-lg">
-//               نحن نقدم أفضل الحلول لتوفير العمالة المدربة والمؤهلة لجميع القطاعات. فريقنا المتخصص يضمن لك الحصول على
-//               أفضل الكفاءات.
-//             </p>
-
-//             <div className="flex gap-4">
-//               <Button
-//                 className="bg-[oklch(0.6_0.2_200)] hover:bg-[oklch(0.55_0.2_200)] shadow-lg hover:shadow-xl transition-all hover:scale-105"
-//                 size="lg"
-//               >
-//                 اطلب الآن
-//               </Button>
-//               <Button
-//                 variant="outline"
-//                 size="lg"
-//                 className="border-2 hover:border-[oklch(0.6_0.2_200)] hover:text-[oklch(0.6_0.2_200)] transition-all hover:scale-105 bg-transparent"
-//               >
-//                 تواصل معنا
-//               </Button>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   )
-// }
 
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Features() {
   const features = [
-    "خدمة عملاء متميزة على مدار الساعة",
-    "عمالة مدربة ومعتمدة بأعلى المعايير",
-    "أسعار تنافسية مع مرونة في الدفع",
-    "توفير سريع للعمالة خلال 24 ساعة",
-    "ضمان الجودة ومتابعة مستمرة",
-    "دعم فني واستشاري متواصل",
+    "خبرة أكثر من 10 سنوات في مجال الاستقدام",
+    "عمالة مدربة ومؤهلة",
+    "سرعة في الإنجاز",
+    "أسعار تنافسية",
+    "ضمان الجودة",
+    "دعم فني متواصل",
   ];
 
   return (
@@ -105,8 +35,7 @@ export function Features() {
             </div>
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-              أكثر من <span className="text-primary">10 سنوات</span> من الخبرة
-              في توفير الكفاءات
+خبرة 10 سنوات في توفير عمالة ماهرة من آسيا
             </h2>
 
             {/* المميزات */}
@@ -128,9 +57,7 @@ export function Features() {
 
             {/* الوصف */}
             <p className="text-lg text-gray-600 leading-relaxed">
-              نتميز بتقديم حلول متكاملة لتوفير العمالة المدربة والمؤهلة لجميع
-              القطاعات. نضمن لك كفاءة عالية من خلال فريق مختص يختار أفضل
-              الكفاءات ويناسبها مع متطلبات عملك.
+شركة أو سياف هي شركة متخصصة في استقدام وتوفير الكفاءات البشرية الماهرة من الفلبين وبنغلاديش لتلبية احتياجات الأسواق الخليجية. نعمل بروح المسؤولية والشراكة، لضمان أعلى معايير الجودة في الاختيار، والالتزام في الإجراءات، والرضا في النتائج.
             </p>
 
             {/* الأزرار */}

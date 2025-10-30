@@ -57,32 +57,40 @@
 // }
 
 import { Card } from "@/components/ui/card";
-import { Wrench, Home, Building, Truck, ArrowLeft } from "lucide-react";
+import { Wrench, Home, Building, Truck, ArrowLeft,Users } from "lucide-react";
 
 export function Services() {
   const services = [
     {
-      icon: Wrench,
-      title: "خدمات الصيانة والإصلاح",
+      icon: Building,
+      title: "المقاولات والبناء",
       description:
-        "فريق فني متخصص في أعمال الصيانة الدورية والإصلاحات الطارئة بشهادات معتمدة",
-    },
+"عمالة ماهرة في البناء والتشييد والمقاولات"    },
     {
       icon: Home,
-      title: "الخدمات المنزلية المتكاملة",
+      title: "الخدمة المنزلية",
       description:
-        "عمالة منزلية مدربة على أعلى مستوى لتلبية كافة احتياجاتك اليومية",
+"عاملات منزليات مدربات وموثوقات"
     },
     {
       icon: Building,
-      title: "مشاريع التشييد والبناء",
+      title: "الرعاية الصحية",
       description:
-        "كوادر هندسية وعمالة بناء محترفة لإنجاز مشاريعك ضمن الجدول الزمني",
-    },
+"ممرضين ومساعدي رعاية صحية مؤهلين"    },
     {
       icon: Truck,
-      title: "خدمات النقل والتوصيل",
-      description: "سائقون محترفون ومدربون على أعلى معايير السلامة والأمان",
+      title: "الضيافة والفنادق",
+      description: "طاقم فندقي محترف ومدرب",
+    },
+        {
+      icon: Wrench,
+      title: "التصنيع والصيانة",
+      description: "فنيين وعمال صيانة متخصصين",
+    },
+            {
+      icon: Users,
+      title: "الإدارة والمكاتب",
+      description: "موظفين إداريين وسكرتارية",
     },
   ];
 
