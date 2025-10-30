@@ -1,82 +1,3 @@
-// import { Button } from "@/components/ui/button";
-// import { Menu, Phone, Mail } from "lucide-react";
-// import Link from "next/link"; // إذا كنت تستخدم Next.js
-
-// export function Header() {
-//   return (
-//     <header className="bg-[oklch(0.25_0.05_250)] text-white sticky top-0 z-50">
-//       {/* Top bar with contact info */}
-//       <div className="bg-[oklch(0.2_0.05_250)] py-2 text-sm">
-//         <div className="container mx-auto px-4 flex items-center justify-between">
-//           <div className="flex items-center gap-6">
-//             <div className="flex items-center gap-2">
-//               <Phone className="h-4 w-4" />
-//               <span>+966 123 456 789</span>
-//             </div>
-//             <div className="flex items-center gap-2">
-//               <Mail className="h-4 w-4" />
-//               <span>info@workersforrent.com</span>
-//             </div>
-//           </div>
-//           <div className="text-[oklch(0.6_0.2_200)]">مرحباً بك في نظام أجور</div>
-//         </div>
-//       </div>
-
-//       {/* Main navigation */}
-//       <div className="container mx-auto px-4">
-//         <div className="flex items-center justify-between h-16">
-//           {/* Logo */}
-//           <Link href="/" className="flex items-center gap-2" aria-label="الصفحة الرئيسية">
-//             <div className="bg-[oklch(0.6_0.2_200)] px-3 py-1 rounded">
-//               <span className="text-xl font-bold">WORKERS</span>
-//             </div>
-//           </Link>
-
-//           {/* Navigation */}
-//           <nav className="hidden md:flex items-center gap-6">
-//             {["الرئيسية", "من نحن", "خدماتنا", "المدونة", "اتصل بنا"].map((item) => (
-//               <a
-//                 key={item}
-//                 href="#"
-//                 // onClick={(e) => e.preventDefault()}
-//                 className="hover:text-[oklch(0.6_0.2_200)] transition-colors"
-//                 aria-label={item}
-//               >
-//                 {item}
-//               </a>
-//             ))}
-//           </nav>
-
-//           {/* Auth Buttons */}
-//           <div className="flex items-center gap-3">
-//             <Button variant="ghost" className="text-white hover:bg-white/10">
-//               تسجيل الدخول
-//             </Button>
-//             <Button className="bg-[oklch(0.6_0.2_200)] hover:bg-[oklch(0.55_0.2_200)] text-white">
-//               التسجيل
-//             </Button>
-//             <Button
-//               variant="ghost"
-//               size="icon"
-//               className="md:hidden"
-//               aria-label="فتح القائمة"
-//             >
-//               <Menu className="h-5 w-5" />
-//             </Button>
-//           </div>
-//         </div>
-//       </div>
-//     </header>
-//   );
-// }
-
-
-
-
-
-
-
-
 import { Button } from "@/components/ui/button";
 import {
   Menu,
@@ -173,25 +94,13 @@ export function Header() {
 
           {/* أزرار المستخدم */}
           <div className="flex items-center gap-3">
-            {/* <Button
-              variant="outline"
-              className="hidden md:flex items-center gap-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300 font-semibold"
-            >
-              <User className="h-4 w-4" />
-              تسجيل الدخول
-            </Button>
-
-            <Button className="bg-gradient-to-r from-primary to-blue-600 hover:from-primary/90 hover:to-blue-600/90 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 font-semibold">
-              اشترك الآن
-            </Button> */}
-
             {/* زر القائمة للموبايل */}
             <Sheet>
               <SheetTrigger asChild>
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="lg:hidden border border-gray-300 hover:bg-gray-50"
+                  className="md:hidden border border-gray-300 hover:bg-gray-50"
                   aria-label="فتح القائمة"
                 >
                   <Menu className="h-5 w-5 text-gray-700" />
@@ -217,23 +126,6 @@ export function Header() {
           </div>
         </div>
       </div>
-
-      {/* شريط إضافي للموبايل */}
-      {/* <div className="lg:hidden bg-gray-50 border-t border-gray-200">
-        <div className="container mx-auto px-6 py-3">
-          <div className="flex items-center justify-between overflow-x-auto gap-4">
-            {navigationItems.slice(0, 4).map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="text-sm text-gray-700 hover:text-primary font-medium whitespace-nowrap px-3 py-1 hover:bg-white rounded-full transition-all duration-200"
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-      </div> */}
       <div className="flex items-center gap-3">
   
 </div>
