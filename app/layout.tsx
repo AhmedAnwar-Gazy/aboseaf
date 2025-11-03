@@ -7,15 +7,15 @@ import "./globals.css"
 // const cairo = Cairo({ subsets: ["arabic", "latin"] })
 
 export const metadata: Metadata = {
-  title: {
-    default :  "ALMURISI",
-    template : "%s - Al-Murisi "
-  },
+  title: "ALMURISI" ,
   description: "نظام أجور لتوفير عمالة مرخصة",
+  metadataBase: new URL("https://aboseaf.vercel.app"),
+ openGraph: {
+   images: ["/copengraph-image.png"],
+ },
   twitter : {
     card : "summary_large_image"
-  }
-  
+  },
 }
 
 export default function RootLayout({
