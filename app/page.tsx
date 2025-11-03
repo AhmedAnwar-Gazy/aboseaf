@@ -4,9 +4,11 @@ import { Stats } from "@/components/stats"
 import { Features } from "@/components/features"
 import { Services } from "@/components/services"
 import { Specializations } from "@/components/specializations"
-import { Process } from "@/components/process"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
+
+
+
 
 export default function Home() {
   return (
@@ -17,7 +19,6 @@ export default function Home() {
       <Features />
       <Services />
       <Specializations />
-      {/* <Process /> */}
       <Contact />
       <Footer />
     </main>

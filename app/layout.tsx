@@ -7,9 +7,15 @@ import "./globals.css"
 // const cairo = Cairo({ subsets: ["arabic", "latin"] })
 
 export const metadata: Metadata = {
-  title: "نظام أجور - عمالة مرخصة",
+  title: {
+    default :  "ALMURISI",
+    template : "%s - Al-Murisi "
+  },
   description: "نظام أجور لتوفير عمالة مرخصة",
-  generator: "v0.app",
+  twitter : {
+    card : "summary_large_image"
+  }
+  
 }
 
 export default function RootLayout({
