@@ -10,9 +10,13 @@ export const metadata: Metadata = {
   title: "ALMURISI" ,
   description: "نظام أجور لتوفير عمالة مرخصة",
   metadataBase: new URL("https://aboseaf.vercel.app"),
- openGraph: {
-   images: ["/copengraph-image.png"],
- },
+  openGraph: {
+     type: "article",
+     title: "ALMURISI – نظام أجور لتوفير عمالة مرخصة",
+     description: "منصة إلكترونية لتوفير العمالة المرخصة بطريقة آمنة وسريعة",
+     url: "https://aboseaf.vercel.app",
+     images: ["https://aboseaf.vercel.app/copengraph-image.png"],
+  },
   twitter : {
     card : "summary_large_image"
   },
